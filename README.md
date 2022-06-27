@@ -10,7 +10,7 @@ Fork este repositório, complete o desafio e envie seu desenvolvimento como Pull
 	Figma: https://www.figma.com/file/sP4N5PeWWkd3jJuYNdJU36/Teste-Frontend-EVOB?node-id=0%3A1
 * Preencha os elementos visuais (textos e logotipo) recebidos através do endpoint:
 	get - https://front.evob.dev.marcomapa.com/front_challenge/info
-* Envie os campos [e-mail] e [password] preenchidos como form-data  p/ o endpoint:
+* Envie os campos [email] e [password] preenchidos como form-data  p/ o endpoint:
 	post - https://front.evob.dev.marcomapa.com/front_challenge/login
 * Exiba os retornos da API ao usuário
 	Dados p/ teste:
