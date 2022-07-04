@@ -7,7 +7,7 @@ const Container : any = styled.div`
         display: none !important;
     }
     width: 50%;
-    height: ${(props:any) => props.position ? '100%;' : '720px;'};
+    height: 100vh;
     position: ${(props:any) => props.position ? props.position : 'relative'};
     right: ${(props:any) => props.position ? '0' : ''};
     * {
@@ -16,14 +16,14 @@ const Container : any = styled.div`
 `
 const Image = styled.img`
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
 `
 const Retangle = styled.div`
     background: rgba(26, 32, 44, 0.9);
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
 `
 const WrapperContent = styled.div`
